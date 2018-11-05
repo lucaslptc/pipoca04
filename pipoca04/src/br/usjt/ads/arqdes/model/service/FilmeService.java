@@ -21,6 +21,7 @@ public class FilmeService {
 		int id = dao.inserirFilme(filme);
 		filme.setId(id);
 		return filme;
+		
 	}
 
 	public ArrayList<Filme> listarFilmes(String chave) throws IOException{
