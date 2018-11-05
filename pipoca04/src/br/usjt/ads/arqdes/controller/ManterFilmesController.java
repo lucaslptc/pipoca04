@@ -64,6 +64,7 @@ public class ManterFilmesController {
 				return "VisualizarFilme";
 			} else {
 				return "CriarFilme";
+				
 			}
 			
 		} catch (IOException e) {
